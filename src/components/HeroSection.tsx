@@ -22,13 +22,13 @@ const HeroSection = () => {
           <p className="mb-8 max-w-xl font-body text-lg leading-relaxed text-secondary-foreground">
             As global populations shift and technology reshapes our world, cities are undergoing their most dramatic transformation in a century.
           </p>
-          <a
-            href="#read-more"
+          <Link
+            to="/article/future-of-cities"
             className="inline-flex items-center gap-2 rounded-sm px-8 py-3 font-body text-sm font-semibold gradient-accent text-accent-foreground transition-all hover:shadow-glow"
           >
             Read Full Story
             <span aria-hidden="true">→</span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
